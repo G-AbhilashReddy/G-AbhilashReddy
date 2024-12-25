@@ -1,86 +1,34 @@
-# Churn Prediction Model
+<h1 align="center">Hi 👋, I'm G Abhilash Reddy</h1>
+<h3 align="center">A passionate Data science from India</h3>
 
-## Overview
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=g-abhilashreddy&label=Profile%20views&color=0e75b6&style=flat" alt="g-abhilashreddy" /> </p>
 
-This project aims to predict customer churn using a machine learning model built with XGBoost. The dataset used for training and testing is the Churn_Modelling dataset.
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=g-abhilashreddy" alt="g-abhilashreddy" /></a> </p>
 
-## Table of Contents
+<p align="left"> <a href="https://twitter.com/gangulaabhilash2" target="blank"><img src="https://img.shields.io/twitter/follow/gangulaabhilash2?logo=twitter&style=for-the-badge" alt="gangulaabhilash2" /></a> </p>
 
-- [Project Structure](#project-structure)
-- [Dataset](#dataset)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Results](#results)
-- [Contributing](#contributing)
-- [License](#license)
-- [Connect with Me](#connect-with-me)
+- 🔭 I’m currently working on [19Student mark Predictor Deployment](C:\Desktop\FDS COURSE FOLDERS\VS code Projects for DS\DS_CAPSTON_PROJECTS _133\6.CP6_Student_marks_predictor)
 
-## Project Structure
+- 🌱 I’m currently learning **Artificial Intelligence, llama**
 
-- `churn_model.py`: Script for training the churn prediction model and saving it using pickle.
-- `app.py`: Streamlit app for uploading data, preprocessing, and making predictions using the trained model.
-- `README.md`: Project documentation.
+- 💬 Ask me about **Full Stack Data Science**
 
-## Dataset
+- 📫 How to reach me **abhilahreddy2704@gmail.com**
 
-The dataset used in this project is the **Churn_Modelling.csv** file, which contains customer information and labels indicating whether a customer has churned.
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+<a href="https://twitter.com/gangulaabhilash2" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="gangulaabhilash2" height="30" width="40" /></a>
+<a href="https://linkedin.com/in/gangula abhilash reddy" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="gangula abhilash reddy" height="30" width="40" /></a>
+</p>
 
-## Installation
+<h3 align="left">Languages and Tools:</h3>
+<p align="left"> <a href="https://flask.palletsprojects.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" alt="flask" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://opencv.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv" width="40" height="40"/> </a> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://pytorch.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="40" height="40"/> </a> <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/> </a> <a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40"/> </a> <a href="https://www.sqlite.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="sqlite" width="40" height="40"/> </a> <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/> </a> </p>
 
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/your-username/churn-prediction.git
-    cd churn-prediction
-    ```
+<h3 align="left">Support:</h3>
+<p><a href="https://ko-fi.com/abhilashreddy"> <img align="left" src="https://cdn.ko-fi.com/cdn/kofi3.png?v=3" height="50" width="210" alt="abhilashreddy" /></a></p><br><br>
 
-2. Install the required packages:
-    ```bash
-    pip install -r requirements.txt
-    ```
+<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=g-abhilashreddy&show_icons=true&locale=en&layout=compact" alt="g-abhilashreddy" /></p>
 
-3. Ensure you have the dataset file (`Churn_Modelling.csv`) in the appropriate directory.
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=g-abhilashreddy&show_icons=true&locale=en" alt="g-abhilashreddy" /></p>
 
-## Usage
-
-1. Train the model and save it using the `churn_model.py` script:
-    ```bash
-    python churn_model.py
-    ```
-
-2. Run the Streamlit app to make predictions:
-    ```bash
-    streamlit run app.py
-    ```
-
-3. Upload the dataset through the Streamlit interface and see the results including the confusion matrix, accuracy score, and training accuracy.
-
-## Results
-
-### Confusion Matrix
-The confusion matrix generated by the model will be displayed here.
-
-### Accuracy
-The accuracy score achieved by the model will be shown here.
-
-## Contributing
-
-Contributions are welcome! Please follow these steps:
-1. Fork the repository.
-2. Create a new branch: `git checkout -b my-feature-branch`.
-3. Make your changes and commit them: `git commit -m 'Add some feature'`.
-4. Push to the branch: `git push origin my-feature-branch`.
-5. Create a pull request.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Connect with Me
-
-- GitHub: [your-username](https://github.com/your-username)
-- LinkedIn: [Your Name](https://www.linkedin.com/in/your-profile)
-- Twitter: [@your_username](https://twitter.com/your_username)
-- Kaggle: [Your Name](https://www.kaggle.com/your-profile)
-
-Feel free to connect with me on these platforms for more insights and collaborations!
-
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=g-abhilashreddy&" alt="g-abhilashreddy" /></p>
